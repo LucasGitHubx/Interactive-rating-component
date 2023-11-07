@@ -9,28 +9,33 @@
 </head>
 <body>
   <main class="main">
-    <img src="./images/icon-star.svg" alt="icon star" class="main__image">
+    <div class="img__container">
+      <img src="./images/icon-star.svg" alt="icon star" class="main__image">
+    </div>
     <h1 class="main__title">How did we do?</h1>
-    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <p class="main__paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+  
+    <form class="form">
+      <div class="submit__group">
+        <input type="radio" id="radio-1" value="1" name="group" class="form__radio">
+        <label for="radio-1">1</label>
+    
+        <input type="radio" id="radio-2" value="2" name="group" class="form__radio">
+        <label for="radio-2">2</label>
+    
+        <input type="radio" id="radio-3" value="3" name="group" class="form__radio">
+        <label for="radio-3">3</label>
+    
+        <input type="radio" id="radio-4" value="4" name="group" class="form__radio">
+        <label for="radio-4">4</label>
+    
+        <input type="radio" id="radio-5" value="5" name="group" class="form__radio">
+        <label for="radio-5">5</label>
+    
+      </div>
+      <input type="submit" value="Submit" class="form__submit">
+    </form>
   </main>
-  <form class="form">
-    <input type="radio" id="radio-1" value="1" name="group" class="form__radio">
-    <label for="radio-1">1</label>
-
-    <input type="radio" id="radio-2" value="2" name="group" class="form__radio">
-    <label for="radio-2">2</label>
-
-    <input type="radio" id="radio-3" value="3" name="group" class="form__radio">
-    <label for="radio-3">3</label>
-
-    <input type="radio" id="radio-4" value="4" name="group" class="form__radio">
-    <label for="radio-4">4</label>
-
-    <input type="radio" id="radio-5" value="5" name="group" class="form__radio">
-    <label for="radio-5">5</label>
-
-    <input type="submit" value="Submit" class="form__submit">
-  </form>
 
   <script src="./js/app.js"></script>
   <!-- Rating state start -->
