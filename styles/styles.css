@@ -112,3 +112,19 @@ form .form__submit:hover{
     background-color: white;
     color: var(--orange);
 }
+
+/* THIS CLASS IS GOING TO BE ADDED USING JAVASCRIPT */
+.hidden{
+    display: none;
+}
+/* THIS CLASS WAS ADDED USING JAVASCRIPT */
+.main__rating{
+    width: max-content;
+    margin: 1rem auto;
+    padding: .6rem;
+    border-radius: 1.5rem;
+    background-color: var(--bgOpacity);
+    color: var(--orange);
+    text-align: center;
+
+}
